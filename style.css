@@ -1,0 +1,74 @@
+* {
+  font-family: sans-serif;
+
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(179, 205, 224);
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 6%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+  /* height: 500px; */
+}
+
+h1 {
+  padding-top: 25px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 25px;
+}
+
+.btnMaisUm {
+  padding: 50px;
+  font-size: 50px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+#contador {
+  display: flex;
+  font-size: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  /* border: 1px solid black; */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.btnReset {
+  background: #ff4742;
+  border: none;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 35px;
+  padding: 6px 70px;
+  margin-bottom: 20px;
+}
