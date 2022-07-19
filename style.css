@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: rgb(179, 205, 224);
-  height: 100vh;
+  background-color: rgb(5, 57, 98);
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-  background-color: rgba(100, 100, 100, 0.5);
-  border-radius: 6%;
+  background-color: rgb(0, 117, 205);
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -44,6 +44,19 @@ h1 {
   border-color: #4cae4c;
 }
 
+.btnMenosUm {
+  padding: 30px;
+  font-size: 50px;
+
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #232afc;
+  border: solid 2px #060df1;
+}
+
 #contador {
   display: flex;
   font-size: 120px;
@@ -65,4 +78,25 @@ h1 {
   font-size: 35px;
   padding: 6px 70px;
   margin-bottom: 20px;
+}
+
+.desenvolvido {
+  margin-top: 10px;
+  color: #fff;
+}
+
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:active {
+  color: #fff;
 }
