@@ -100,3 +100,40 @@ a:hover {
 a:active {
   color: #fff;
 }
+
+@media screen and (max-height: 600px) {
+  .container {
+    background-color: rgb(0, 117, 205);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+  }
+  h1 {
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .btnMaisUm {
+    padding: 5px;
+    font-size: 35px;
+  }
+
+  .btnMenosUm {
+    padding: 3px;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  #contador {
+    font-size: 30px;
+    margin: 0;
+  }
+  .btnReset {
+    font-size: 20px;
+    padding: 3px 30px;
+    margin-bottom: 10px;
+  }
+}
